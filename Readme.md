@@ -134,7 +134,7 @@ To make changes to the FastAPI application, modify the files within the `/ocr-ap
 
 ## Authors
 
-- **Alice DEVILDER AKAMA**
+- **Alice DEVILDER**
 
 ## Acknowledgments
 
