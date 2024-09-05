@@ -2,7 +2,7 @@ services:
   ocr-api:
     build: ./ocr-api
     ports:
-      - "5000:5000"
+      - "5001:5000"
     volumes:
       - ./ocr-api:/app/ocr-api
     restart: always
