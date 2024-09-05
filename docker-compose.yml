@@ -1,0 +1,18 @@
+services:
+  ocr-api:
+    build: ./ocr-api
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./ocr-api:/app/ocr-api
+    restart: always
+
+  streamlit-frontend:
+    build: ./streamlit-frontend
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./streamlit-frontend:/app/streamlit-frontend
+    restart: always
+    depends_on:
+      - ocr-api
