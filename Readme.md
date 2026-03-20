@@ -1,4 +1,4 @@
-# OCR Web Service (Mercari ML assignment)
+# OCR Web Service
 
 This project provides a web service for Optical Character Recognition (OCR) using [FastAPI](https://fastapi.tiangolo.com/) and [Streamlit](https://streamlit.io/). The OCR task is done using [tesseract](https://github.com/tesseract-ocr/tesseract), a well known open source system. The FastAPI backend handles image processing and OCR tasks, while the Streamlit frontend provides an interactive user interface for uploading images and viewing OCR results. To sum up, this web-service accepts images, uses tesseract to do OCR in the background, and returns the text from the image.
 
